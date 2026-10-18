@@ -1,0 +1,11 @@
+{"id": "F-CAMPAIGNS", "name": "Broadcast campaigns", "owner_email": "neha.iyer@cheerio.example", "systems": ["messaging-api", "send-guard"]}
+{"id": "F-TEMPLATES", "name": "Templates", "owner_email": "kavya.reddy@cheerio.example", "systems": ["messaging-api"]}
+{"id": "F-INBOX", "name": "Shared inbox", "owner_email": "gautam.bhatt@cheerio.example", "systems": []}
+{"id": "F-WORKFLOWS", "name": "Workflows & chatbots", "owner_email": "nikhil.joshi@cheerio.example", "systems": ["workflow-engine"]}
+{"id": "F-SHOPIFY", "name": "Shopify automations", "owner_email": "zoya.ahmed@cheerio.example", "systems": ["workflow-engine"]}
+{"id": "F-REPORTS", "name": "Campaign reports", "owner_email": "dev.malhotra@cheerio.example", "systems": ["data-warehouse"]}
+{"id": "F-AI", "name": "AI assistant", "owner_email": "rohan.das@cheerio.example", "systems": ["workflow-engine"]}
+{"id": "F-VOICE", "name": "Voice AI", "owner_email": "ritu.bansal@cheerio.example", "systems": ["voice-gateway"]}
+{"id": "F-ADS", "name": "Click-to-WhatsApp ads", "owner_email": "tom.fernandes@cheerio.example", "systems": []}
+{"id": "F-API", "name": "Messaging API & webhooks", "owner_email": "arjun.nair@cheerio.example", "systems": ["messaging-api", "api-gateway"]}
+{"id": "F-ACCESS", "name": "Team, login & roles", "owner_email": "omar.siddiqui@cheerio.example", "systems": ["api-gateway"]}

@@ -1,0 +1,16 @@
+# Local FalkorDB for Relay. Redis protocol on 6395, FalkorDB Browser on 3015.
+services:
+  falkordb:
+    image: falkordb/falkordb:6.0.2
+    container_name: baton-falkordb
+    ports:
+      - "6395:6379"
+      - "3015:3000"
+    environment:
+      FALKORDB_ARGS: "MAX_QUEUED_QUERIES 50 TIMEOUT 15000 RESULTSET_SIZE 20000"
+    volumes:
+      - baton-falkordb-data:/var/lib/falkordb/data
+    restart: unless-stopped
+
+volumes:
+  baton-falkordb-data:

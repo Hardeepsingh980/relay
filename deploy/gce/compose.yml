@@ -1,0 +1,34 @@
+# Relay on one VM: the single app container (FalkorDB + API + web) behind Caddy for HTTPS.
+# Run from the repo root: docker compose -f deploy/gce/compose.yml --env-file deploy/gce/.env.prod up -d --build
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: deploy/Dockerfile
+    image: relay-app:latest
+    restart: unless-stopped
+    env_file: .env.prod
+    environment:
+      PORT: "8080"
+    volumes:
+      - relay-data:/data
+    expose:
+      - "8080"
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      RELAY_DOMAIN: ${RELAY_DOMAIN}
+    volumes:
+      - ./Caddyfile.edge:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  relay-data: {}
+  caddy-data: {}
+  caddy-config: {}

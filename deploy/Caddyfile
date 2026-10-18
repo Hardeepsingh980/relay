@@ -1,0 +1,34 @@
+# Front door for the single Relay container. Railway terminates TLS and forwards plain HTTP to $PORT.
+{
+	admin off
+	auto_https off
+	persist_config off
+	servers {
+		# Only Railway's edge proxy reaches this port, so keep the X-Forwarded-* headers it sets
+		# (X-Forwarded-Proto: https) instead of overwriting them.
+		trusted_proxies static 0.0.0.0/0 ::/0
+	}
+}
+
+:{$PORT:8080} {
+	# Liveness for Railway's healthcheck: answers as soon as Caddy is up, also while the graphs build.
+	# Readiness of the API (FalkorDB reachable): GET /api/health.
+	handle /healthz {
+		respond "ok" 200
+	}
+
+	handle /api/* {
+		# Never compress Server-Sent Events (EventSource sends Accept: text/event-stream).
+		@compressible not header Accept *text/event-stream*
+		encode @compressible zstd gzip
+		reverse_proxy 127.0.0.1:8020 {
+			# Write every SSE chunk to the client immediately.
+			flush_interval -1
+		}
+	}
+
+	handle {
+		encode zstd gzip
+		reverse_proxy 127.0.0.1:3000
+	}
+}

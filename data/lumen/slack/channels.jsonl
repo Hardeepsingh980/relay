@@ -1,0 +1,9 @@
+{"id": "C0GENERAL", "name": "general", "purpose": "Company-wide announcements and chatter", "is_shared": false, "is_im": false}
+{"id": "C0ENG", "name": "eng", "purpose": "Engineering questions, builds and help", "is_shared": false, "is_im": false}
+{"id": "C0PAYMENTS", "name": "payments", "purpose": "Payments team: settlement, recon, ledger, payments API", "is_shared": false, "is_im": false}
+{"id": "C0PLATFORM", "name": "platform", "purpose": "Platform team: gateway, CI, infra, staging", "is_shared": false, "is_im": false}
+{"id": "C0CHECKOUT", "name": "checkout", "purpose": "Checkout team", "is_shared": false, "is_im": false}
+{"id": "C0PARTNERS", "name": "partners", "purpose": "Partnerships and customer escalations", "is_shared": false, "is_im": false}
+{"id": "C0INCIDENTS", "name": "incidents", "purpose": "Alerts and incident coordination", "is_shared": false, "is_im": false}
+{"id": "C0EXTACME", "name": "ext-acme-bank", "purpose": "Slack Connect with Acme Bank", "is_shared": true, "is_im": false}
+{"id": "D0ACMERAHUL", "name": null, "purpose": null, "is_shared": true, "is_im": true, "members": ["U0RAHUL", "U0DANIEL", "U0MEI"]}

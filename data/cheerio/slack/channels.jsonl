@@ -1,0 +1,9 @@
+{"id": "C0GENERAL", "name": "general", "purpose": "Company-wide announcements and chatter", "is_shared": false, "is_im": false}
+{"id": "C0ENG", "name": "eng", "purpose": "Engineering questions, builds and help", "is_shared": false, "is_im": false}
+{"id": "C0MESSAGING", "name": "messaging", "purpose": "Messaging pod: send pipeline, wallet, settlement, recon", "is_shared": false, "is_im": false}
+{"id": "C0PLATFORM", "name": "platform", "purpose": "Platform: gateway, CI, infra, staging, voice", "is_shared": false, "is_im": false}
+{"id": "C0AUTOMATIONS", "name": "automations", "purpose": "Automations pod: workflows, Shopify, AI assistant", "is_shared": false, "is_im": false}
+{"id": "C0CS", "name": "cs", "purpose": "Customer escalations, renewals and asks from CS", "is_shared": false, "is_im": false}
+{"id": "C0INCIDENTS", "name": "incidents", "purpose": "Alerts and incident coordination", "is_shared": false, "is_im": false}
+{"id": "C0EXTKAIRO", "name": "ext-kairo-living", "purpose": "Slack Connect with Kairo Living", "is_shared": true, "is_im": false}
+{"id": "D0KAIRORAHUL", "name": null, "purpose": null, "is_shared": true, "is_im": true, "members": ["U0RAHUL", "U0SIDDHARTH", "U0POOJA"]}

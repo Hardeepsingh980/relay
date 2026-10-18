@@ -1,0 +1,17 @@
+{
+  "seed": 20261013,
+  "generated_for": "2026-10-19T09:30:00+05:30",
+  "counts": {
+    "people": 41,
+    "slack_messages": 3000,
+    "slack_channels": 8,
+    "docs": 62,
+    "tickets": 400,
+    "meetings": 50,
+    "commits": 1181,
+    "pulls": 779
+  },
+  "note": "Synthetic data for a fictional company. Any resemblance to real people is coincidental.",
+  "sha256": "c7593f2786be8aa427e98bc1fd1cf0a5f26a419df96fe44386e7e057537bf8b4",
+  "cast": "renamed (lumen.generate.RENAME)"
+}

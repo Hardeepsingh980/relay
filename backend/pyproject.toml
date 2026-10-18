@@ -1,0 +1,35 @@
+[project]
+name = "relay"
+version = "0.1.0"
+description = "Relay: a company brain that keeps customers and knowledge from walking out the door"
+readme = "README.md"
+authors = [
+    { name = "Hardeep.io", email = "Hardeep0khalsa122@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=50.0.2",
+    "falkordb>=1.7.1",
+    "fastapi>=0.143.0",
+    "google-genai>=2.30.0",
+    "httpx>=0.28.1",
+    "mcp>=1.9",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "sse-starlette>=3.5.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.17.0",
+]
+
+[project.scripts]
+relay = "relay.cli:main"

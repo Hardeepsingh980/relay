@@ -1,0 +1,138 @@
+{
+ "id": "call-northwind-renewal",
+ "event_id": "evt-2026-10-19-northwind",
+ "title": "Northwind Foods <> Cheerio: renewal",
+ "account": "Northwind Foods",
+ "started_at": "2026-10-19T15:00:00+05:30",
+ "duration_s": 113,
+ "consent": true,
+ "source": "Pre-recorded call replayed through the meeting-bot pipeline",
+ "segments": [
+  {
+   "t": 0,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "Hi Aman, hi Mohit, thanks for making time. Quick heads-up: this call is recorded and Cheerio's assistant takes notes for me, is that okay?"
+  },
+  {
+   "t": 8,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "Sure, go ahead."
+  },
+  {
+   "t": 9.6,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "So the renewal is on 11 November. Before we talk pricing, I wanted to hear how the last quarter went for you."
+  },
+  {
+   "t": 16.4,
+   "speaker_email": "aman.khurana@northwindfoods.example",
+   "speaker_name": "Aman Khurana",
+   "text": "Campaigns are fine, the Diwali broadcast did well. But the campaign report exports keep failing. For a month now we can't download the full report for the big broadcasts."
+  },
+  {
+   "t": 27.6,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "I'm sorry about that, I know you've raised it more than once."
+  },
+  {
+   "t": 31.2,
+   "speaker_email": "aman.khurana@northwindfoods.example",
+   "speaker_name": "Aman Khurana",
+   "text": "Three times. Ritika used to pull those reports every Monday, and now my team rebuilds them by hand."
+  },
+  {
+   "t": 38.2,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "The other thing for us is login. Our agency team has twelve people on the inbox. Is SSO coming in December? Kabir mentioned December last time."
+  },
+  {
+   "t": 47.5,
+   "speaker_email": "kabir.anand@cheerio.example",
+   "speaker_name": "Kabir Anand",
+   "text": "Let me be straight with you: SSO has moved to Q1. I don't want to promise December and miss it."
+  },
+  {
+   "t": 53.5,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "Okay. Q1 is fine if it's real. Can you put that in writing?"
+  },
+  {
+   "t": 58.4,
+   "speaker_email": "kabir.anand@cheerio.example",
+   "speaker_name": "Kabir Anand",
+   "text": "Yes, I'll confirm the Q1 timeline in writing this week."
+  },
+  {
+   "t": 62.3,
+   "speaker_email": "aman.khurana@northwindfoods.example",
+   "speaker_name": "Aman Khurana",
+   "text": "Also, can we send carousel templates from the API? Our developer wants to push product carousels straight from Shopify."
+  },
+  {
+   "t": 69.8,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "Yes, that shipped in September. I'll send you the docs after the call."
+  },
+  {
+   "t": 73.5,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "Honestly, one of the platforms we looked at is quite a bit cheaper on the Pro plan."
+  },
+  {
+   "t": 78.9,
+   "speaker_email": "kabir.anand@cheerio.example",
+   "speaker_name": "Kabir Anand",
+   "text": "Understood. Can I show you the revenue attribution from your Diwali campaigns before we talk numbers? Your abandoned-cart flow alone recovered about ₹6.2 lakh last quarter."
+  },
+  {
+   "t": 89.1,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "That would help."
+  },
+  {
+   "t": 90.3,
+   "speaker_email": "aman.khurana@northwindfoods.example",
+   "speaker_name": "Aman Khurana",
+   "text": "Coming back to the exports, when will that actually be fixed?"
+  },
+  {
+   "t": 94.2,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "Our engineer Dev owns that fix. I'll get you a fix date by Friday."
+  },
+  {
+   "t": 98.3,
+   "speaker_email": "aman.khurana@northwindfoods.example",
+   "speaker_name": "Aman Khurana",
+   "text": "Okay, Friday works."
+  },
+  {
+   "t": 99.9,
+   "speaker_email": "kabir.anand@cheerio.example",
+   "speaker_name": "Kabir Anand",
+   "text": "And on the renewal, I'll send a proposal with the Pro plan and the AI credits bundle by Wednesday."
+  },
+  {
+   "t": 106.9,
+   "speaker_email": "mohit.bhalla@northwindfoods.example",
+   "speaker_name": "Mohit Bhalla",
+   "text": "Sounds good. Thanks, both."
+  },
+  {
+   "t": 109.1,
+   "speaker_email": "sneha.bose@cheerio.example",
+   "speaker_name": "Sneha Bose",
+   "text": "Thanks Aman, thanks Mohit. Talk soon."
+  }
+ ]
+}

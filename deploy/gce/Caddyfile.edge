@@ -1,0 +1,7 @@
+# Public front door: automatic HTTPS for the sslip.io name, then the app container.
+# No compression here: the app's own Caddy compresses everything except Server-Sent Events.
+{$RELAY_DOMAIN} {
+	reverse_proxy app:8080 {
+		flush_interval -1
+	}
+}

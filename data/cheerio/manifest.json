@@ -1,0 +1,26 @@
+{
+  "seed": 20261013,
+  "company": "Cheerio",
+  "generated_for": "2026-10-19T09:30:00+05:30",
+  "counts": {
+    "people": 45,
+    "slack_messages": 3000,
+    "slack_channels": 8,
+    "docs": 68,
+    "jira_issues": 464,
+    "meetings": 57,
+    "commits": 1113,
+    "pulls": 736,
+    "accounts": 120,
+    "support_tickets": 1083,
+    "bugs": 64,
+    "usage_rows": 23375,
+    "invoices": 360,
+    "conversations": 372,
+    "promises": 8,
+    "roadmap_items": 10,
+    "calendar_events": 6
+  },
+  "note": "Synthetic data. Cheerio's product is real; every person, customer, message and number is invented.",
+  "sha256": "bc2653d38a348df26deb98de34f98ff75eedec85bd17329bcc2759d6d269ce83"
+}

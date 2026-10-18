@@ -1,0 +1,3 @@
+# The repo-wide .gitignore drops *.sqlite; the shipped Gemini cache must be tracked
+# (and uploaded by `railway up`, which respects .gitignore).
+!llm-cache.sqlite
